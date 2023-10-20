@@ -9,7 +9,6 @@ import reportWebVitals from './reportWebVitals';
 
 // root hooks into div from html file 
 // strict mode gives additonal warnings while coding 
-{/* <App /> is the function from App file  */}
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode> 

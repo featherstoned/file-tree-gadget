@@ -12,7 +12,7 @@ jobs:
 
       matrix:
 
-        node_version: [14.17.0]
+        node_version: [16.x]
 
     steps:
 

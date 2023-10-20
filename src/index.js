@@ -1,12 +1,18 @@
+// this is the entry file for the app
 import React from 'react';
+
+// to render function line 12
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
+import './App.css';
 import reportWebVitals from './reportWebVitals';
 
+// root hooks into div from html file 
+// strict mode gives additonal warnings while coding 
+{/* <App /> is the function from App file  */}
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode> 
     <App />
   </React.StrictMode>
 );
